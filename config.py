@@ -26,9 +26,9 @@ OWNER_ID = int(getenv("OWNER_ID", 7210023920))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
+HEROKU_APP_NAME = getenv("dishamus")
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+HEROKU_API_KEY = getenv("HRKU-82072696-1b0d-4ac9-8ef3-db8659df774d")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("BQGdG4wAuC9-TaQI7BWLtjxzA6U3jok6WAqzt86hQvcavjIYKYNXRFMKPDq0LLaLrpFFxNRUEqp0YEGPX5uRy6F51gjrHan6IRP6UQhgxKdkpcGqDZPwlaovp4SsZLX3qeY5ESsJjQIKr58nlfqjSoHpR8m4AO87SbRx2SrcnPgh5HQwVbLPb4cN_t3HDr0MZENe6Nqu0UTXowoOlTZ1730leGsQjO-ZOHC-zyOEuk1IsgbkNqrbWX8-5QGNkfODq-KEAioXFAtgzB1iARDDS6bHJCZRrS6nm0PWMYXA7O1Z2Pw24FdDIDlRgwA6gSiEttTeq7Zd81tv4NXlCPmB5WpMeTDKOgAAAAGtwDvwAA", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
